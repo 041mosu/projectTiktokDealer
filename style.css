@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 120%;
+    background-color: antiquewhite;
+}
+
+.header {
+    width: 45%;
+    margin: 50px auto 0px;
+    color: aliceblue;
+    background: #000000;
+    text-align: center;
+    border: 1px solid #b0c4de;
+    border-bottom: none;
+    border-radius: 15px 15px 15px 15px;
+    padding: 20px;
+}
+
+.btn-outline-success {
+    --bs-btn-color: #ffffff;
+    --bs-btn-border-color: #198754;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #198754;
+    --bs-btn-hover-border-color: #198754;
+    --bs-btn-focus-shadow-rgb: 25,135,84;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #198754;
+    --bs-btn-active-border-color: #198754;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #198754;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #198754;
+    --bs-gradient: none;
+}
+
+form, .content {
+    width: 30%;
+    margin: 0 auto;
+    margin-right: -80px;
+    padding: 20px;
+    background: rgb(0, 0, 0);
+    border-radius: 0px 0px 10px 10px;
+}
+.error {
+    width: 40%;
+    margin: 0px auto;
+    padding: 10px;
+    border: 1px solid #a94442;
+    color: #a94442;
+    background: #f2dede;
+    border-radius: 5px;
+    text-align: left;
+  }
+
+  .success {
+    color: #3c763d;
+    background: whitesmoke;
+    border: 1px solid #3c763d;
+    margin-bottom: 20px;
+  }
+  .container-fluid {
+    padding-left: 0;
+    padding-right: 0
+    ;
+}
+
+.bi-instagram::before {
+    content: "\f437";
+    color: white;
+}
+
+.bi-facebook::before {
+    content: "\f344";
+    color: white;
+}
+
+.bi-line::before {
+    content: "\f660";
+    color: white;
+}
+
+.bi-telephone-fill::before {
+    content: "\f5b4";
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(255 255 255 / 100%);
+}
+
+.navbar-light .navbar-brand {
+    color: rgb(255 255 255 / 90%);
+}
+
+.bg-dark {
+    background-color: #000000!important;
+}
+
+.navbar-bt {
+    background-color: #000000;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+ 
+  .navbar-light .navbar-toggler {
+    color: rgb(255 253 253 / 100%);
+    border-color: rgb(255 255 255 / 100%);
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(255 255 255 / 100%);
+}
+
+.test{
+    background-color: #000000;
+    overflow: hidden;
+    bottom: 0;
+    width: 100%;
+}
